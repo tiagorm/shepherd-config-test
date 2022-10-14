@@ -1,0 +1,22 @@
+{
+  "upstream_datasets": [
+    "nu-br/series-contract/conflux-features",
+    "nu-br/series-contract/conflux-features-value-pii"
+  ],
+  "streaming_feature_set": {
+    "dataset_name": "nu-br/series-contract/conflux-features",
+    "dataset_name_pii": "nu-br/series-contract/conflux-features-value-pii",
+    "id_col": "entity_id",
+    "timestamp_col": "as_of"
+  },
+  "feature_set": {
+    "name": "my-fs-streaming-1",
+    "version": "v1",
+    "features": {
+      "categorical": [
+        "feature2",
+        "feature1"
+      ]
+    }
+  }
+}
