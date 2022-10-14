@@ -1,0 +1,19 @@
+{
+  "upstream_datasets": [
+    "nu-br/dataset/streaming-featureset-my-fs-batch-vv1"
+  ],
+  "batch_feature_set": {
+    "dataset_name": "nu-br/dataset/streaming-featureset-my-fs-batch-vv1",
+    "id_col": "card-id",
+    "timestamp_col": "timestamp"
+  },
+  "feature_set": {
+    "name": "my-fs-batch",
+    "version": "v1",
+    "features": {
+      "categorical": [
+        "feature"
+      ]
+    }
+  }
+}
