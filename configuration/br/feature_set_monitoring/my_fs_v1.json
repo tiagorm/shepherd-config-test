@@ -1,8 +1,14 @@
 {
   "upstream_datasets": [
     "nu-br/series-contract/conflux-features",
-    "nu-br/series-contract/conflux-features-value-pii"
+    "nu-br/series-contract/conflux-features-value-pii",
+    "nu-br/dataset/streaming-featureset-my-fs-v1"
   ],
+  "batch_feature_set": {
+    "dataset_name": "nu-br/dataset/streaming-featureset-my-fs-v1",
+    "id_col": "card-id",
+    "timestamp_col": "timestamp"
+  },
   "streaming_feature_set": {
     "dataset_name": "nu-br/series-contract/conflux-features",
     "dataset_name_pii": "nu-br/series-contract/conflux-features-value-pii",
