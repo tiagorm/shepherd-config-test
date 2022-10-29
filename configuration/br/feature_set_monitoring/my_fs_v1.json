@@ -23,8 +23,8 @@
         "feature2"
       ],
       "categorical": [
-        "feature",
-        "feature1"
+        "feature1",
+        "feature"
       ]
     }
   }
